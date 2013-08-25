@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/home/adrian/AndOutKast/.metadata/.plugins/org.eclipse.jdt.core
+1343001863.index
+1814411792.index
+1871671000.index
+975361699.index

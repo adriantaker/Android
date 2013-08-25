@@ -1,0 +1,15 @@
+package com.outkast.puntos_1_4;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class Op1 extends Activity{
+
+	String texto= "Estas en la Op1";
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		textView t;
+		
+	}
+}

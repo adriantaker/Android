@@ -1,0 +1,27 @@
+package com.outkast.puntos_1_4;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.util.Log;
+public class Op1 extends Activity{
+
+	String texto= "Estas en la Op1";
+	
+	/*private void log(String text) {
+		Log.d("LifeCycleTest",text);
+		textoV.setText(texto.toString());
+		
+	}*/
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		TextView textoV = new TextView(this);
+
+		textoV.setText("pringao");
+		setContentView(textoV);
+		
+		
+		
+	}
+}

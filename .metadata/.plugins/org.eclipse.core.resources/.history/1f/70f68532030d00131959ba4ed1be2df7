@@ -1,0 +1,27 @@
+package com.outkast.puntos_1_4;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.util.Log;
+public class CicloDeVidaTest extends Activity{
+
+	
+	
+	/*private void log(String text) {
+		Log.d("LifeCycleTest",text);
+		textoV.setText(texto.toString());
+		
+	}*/
+	
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		TextView textoV = new TextView(this);
+
+		textoV.setText("pringao");
+		setContentView(textoV);
+		
+		
+		
+	}
+}
